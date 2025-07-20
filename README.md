@@ -1,8 +1,7 @@
-# Sorting-Algo-Visualiser
-
 Project Overview: Sorting Algorithm Visualizer
 
-Objective: The Sorting Algorithm Visualizer is a web-based tool designed to help users understand and visualize various sorting algorithms. It allows users to adjust the size of the array and the speed of the visualization, making it easier to observe how each algorithm processes the data.
+Objective:
+The Sorting Algorithm Visualizer is a web-based tool designed to help users understand and visualize various sorting algorithms. It allows users to adjust the size of the array and the speed of the visualization, making it easier to observe how each algorithm processes the data.
 
 Tech Stack:
 
@@ -50,15 +49,21 @@ Workflow:
 
 Initial Setup:
 
-The HTML page sets up the structure with a header, a section for the array visualization, and a footer containing the algorithm buttons. The main.js script initializes the array and handles user inputs like array size and speed adjustments. Event Handling:
+The HTML page sets up the structure with a header, a section for the array visualization, and a footer containing the algorithm buttons.
+The main.js script initializes the array and handles user inputs like array size and speed adjustments.
+Event Handling:
 
-Event listeners in main.js respond to user interactions, such as changing the array size or speed, clicking the "Generate New Array" button, or selecting a sorting algorithm. Sorting and Visualization:
+Event listeners in main.js respond to user interactions, such as changing the array size or speed, clicking the "Generate New Array" button, or selecting a sorting algorithm.
+Sorting and Visualization:
 
-When a sorting algorithm button is clicked, the corresponding sorting script (e.g., bubble_sort.js, quick_sort.js) is triggered. The sorting algorithm processes the array, and with each step, the visualizations.js script updates the display to reflect the current state of the array. The process continues until the array is fully sorted, providing a clear visual representation of how the algorithm works.
+When a sorting algorithm button is clicked, the corresponding sorting script (e.g., bubble_sort.js, quick_sort.js) is triggered.
+The sorting algorithm processes the array, and with each step, the visualizations.js script updates the display to reflect the current state of the array.
+The process continues until the array is fully sorted, providing a clear visual representation of how the algorithm works.
 
 Customization and Expansion:
 
-The modular design allows for easy addition of new sorting algorithms or customization of existing ones. The visualizer can be expanded to include more complex algorithms or different types of visualizations.
+The modular design allows for easy addition of new sorting algorithms or customization of existing ones.
+The visualizer can be expanded to include more complex algorithms or different types of visualizations.
 
 Challenges and Learning:
 
